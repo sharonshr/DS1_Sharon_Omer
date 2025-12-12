@@ -1,6 +1,4 @@
-//
-// Created by sharo on 09/12/2025.
-//
+
 
 #ifndef STUDENT_H
 #define STUDENT_H
@@ -49,3 +47,4 @@ public:
 
 
 #endif //STUDENT_H
+
