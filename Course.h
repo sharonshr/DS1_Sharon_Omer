@@ -14,7 +14,7 @@ private:
 
 public:
     Course(int id, int points) : course_id(id), course_points(points){}
-    ~Course()() = default;
+    ~Course() = default;
     Course(const Student& other) = delete;
     Course& operator=(const Course& other) = delete;
     const AVLTree<int, Student*>& get_enrolled_students() const {
